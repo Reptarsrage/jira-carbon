@@ -66,6 +66,23 @@
     background: /*[[Highlight]]*/ !important;
   }
 
+  ::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: /*[[Secondary Text]]*/ !important;
+    opacity: 1;
+    /* Firefox */
+  }
+
+  :-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: /*[[Secondary Text]]*/ !important;
+  }
+
+  ::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: /*[[Secondary Text]]*/ !important;
+  }
+
   .aui-sidebar[aria-expanded="false"] .aui-sidebar-group:focus,
   .aui-sidebar-submenu[aria-expanded="false"] .aui-sidebar-group:focus,
   .aui-sidebar[aria-expanded="false"] .aui-sidebar-group:hover,
@@ -162,7 +179,19 @@
 
   .activity-item-description blockquote {
     background-color: /*[[Secondary]]*/ !important;
-    color: #585a62 !important;
+    color: /*[[Primary Text]]*/ !important;
+  }
+
+  .activity-item-summary {
+    color: /*[[Primary Text]]*/ !important;
+  }
+
+  .activity-item-info {
+    color: /*[[Secondary Text]]*/ !important;
+  }
+
+  #activity-stream-show-more:hover {
+    background-color: /*[[Tertiary]]*/ !important;
   }
 
   .aui-sidebar[aria-expanded="false"] .project-shortcuts-group::after {
@@ -962,6 +991,14 @@
 
   #content .cv-page-title {
     background-color: /*[[Primary]]*/ !important;
+  }
+
+  #activity-stream-show-more span {
+    color: /*[[Primary Text]]*/ !important;
+  }
+
+  #footer .footer-body {
+    color: /*[[Tertiary Text]]*/ !important;
   }
 
   #dashboard > .vertical.tabs,
