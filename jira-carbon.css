@@ -579,7 +579,13 @@
   }
 
   .ghx-plan-dropzone.ghx-dropzone-active {
-    background: repeating-linear-gradient(45deg, , 10px, 10px, 20px) !important;
+    background: repeating-linear-gradient(
+      45deg,
+      /*[[Primary]]*/,
+      /*[[Primary]]*/ 10px,
+      /*[[Secondary]]*/ 10px,
+      /*[[Secondary]]*/ 20px
+    ) !important;
   }
 
   .ghx-swimlane-header .ghx-bandaid {
@@ -591,7 +597,7 @@
     background-color: /*[[Secondary]]*/ !important;
   }
 
-  .ghx-swimlane-header::after {
+  .ghx-swimlane-header:after {
     background-color: /*[[Secondary]]*/ !important;
     box-shadow: none !important;
   }
@@ -599,10 +605,10 @@
   .ghx-zone-cell {
     background: repeating-linear-gradient(
       45deg,
-      ,
-      10px,
-      10 px,
-      20px
+      /*[[Primary]]*/,
+      /*[[Primary]]*/ 10px,
+      /*[[Secondary]]*/ 10px,
+      /*[[Secondary]]*/ 20px
     ) !important;
   }
 
@@ -796,9 +802,13 @@
     border-color: /*[[Border]]*/ !important;
   }
 
+  aui-inline-dialog .aui-inline-dialog-contents,
   .aui-inline-dialog .aui-inline-dialog-contents,
+  aui-inline-dialog .contents,
   .aui-inline-dialog .contents {
-    background-color: /*[[Secondary]]*/ !important;
+    background: /*[[Primary]]*/ !important;
+    color: /*[[Primary Text]]*/ !important;
+    border-color: /*[[Border]]*/ !important;
   }
 
   button.aui-button {
