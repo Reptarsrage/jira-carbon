@@ -1054,6 +1054,23 @@
   .sprint-health-dashboard-item {
     background: /*[[Primary]]*/ !important;
   }
+
+  .split-view .list-results-panel .count-pagination,
+  .simple-issue-list .inline-issue-create-container {
+    background: /*[[Primary]]*/ !important;
+  }
+
+  .issue-list > li .splitview-issue-link .issue-link-summary {
+    color: /*[[Primary Text]]*/ !important;
+  }
+
+  .iic-trigger button {
+    color: /*[[Secondary Text]]*/ !important;
+  }
+
+  .iic-trigger button:hover {
+    color: /*[[Primary Text]]*/ !important;
+  }
 }
 
 @-moz-document domain("hiptest.net") {
