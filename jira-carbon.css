@@ -1071,6 +1071,14 @@
   .iic-trigger button:hover {
     color: /*[[Primary Text]]*/ !important;
   }
+
+  .aui-sidebar .jira-navigation .aui-nav>li>.aui-nav-item>.aui-icon::before {
+    display: none;
+  }
+
+  .aui-sidebar .jira-navigation .aui-nav>li>.aui-nav-item>.aui-icon {
+    background-repeat: no-repeat !important;
+  }
 }
 
 @-moz-document domain("hiptest.net") {
