@@ -1088,6 +1088,13 @@
   .navigator-container {
     background: /*[[Primary]]*/ !important;
   }
+
+  form#issue-filter .check-list-item.active,
+  form.aui .check-list-item.active,
+  .check-list-item.active,
+  .check-list-group-footer.active {
+    background: /*[[Tertiary]]*/ !important;
+  }
 }
 
 @-moz-document domain("hiptest.net") {
