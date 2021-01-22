@@ -17,7 +17,8 @@
 @advanced color Tertiary Text "Tertiary Text Color" #888888
 ==/UserStyle== */
 
-@-moz-document regexp("https?://.*\\.atlassian\\.net/.*"), regexp("https?://jira\\..*") {
+@-moz-document regexp("https?://.*\\.atlassian\\.net/.*"), regexp("https?://jira\\..*")
+{
   html,
   body {
     background-color: /*[[Primary]]*/ !important;
@@ -1072,11 +1073,16 @@
     color: /*[[Primary Text]]*/ !important;
   }
 
-  .aui-sidebar .jira-navigation .aui-nav>li>.aui-nav-item>.aui-icon::before {
+  .aui-sidebar
+    .jira-navigation
+    .aui-nav
+    > li
+    > .aui-nav-item
+    > .aui-icon::before {
     display: none;
   }
 
-  .aui-sidebar .jira-navigation .aui-nav>li>.aui-nav-item>.aui-icon {
+  .aui-sidebar .jira-navigation .aui-nav > li > .aui-nav-item > .aui-icon {
     background-repeat: no-repeat !important;
   }
 
@@ -1094,6 +1100,82 @@
   .check-list-item.active,
   .check-list-group-footer.active {
     background: /*[[Tertiary]]*/ !important;
+  }
+
+  #gh:not(.ghx-sticky-sprint-headers-disabled)
+    .ghx-backlog-container
+    .ghx-backlog-header {
+    background: /*[[Primary]]*/ !important;
+  }
+
+  aui-badge,
+  .aui-badge {
+    background: transparent;
+    color: /*[[Tertiary]]*/ !important;
+  }
+
+  .ghx-backlog-container .ghx-issue-count,
+  .ghx-sprint-info {
+    color:/*[[Secondary Text]]*/ !important;
+  }
+
+  .ghx-backlog-header .ghx-expander svg g path {
+    fill:/*[[Primary Text]]*/ !important;
+  }
+
+  button.aui-button-link {
+    color: /*[[Link]]*/ !important;
+    background-color: transparent !important;
+    border-color: transparent !important;
+  }
+
+  .aui-button.aui-button-link:hover,
+  .aui-button.aui-button-text:hover {
+    color:/*[[Link]]*/ !important;
+    text-decoration: underline !important;
+  }
+
+  .aui-button.aui-button-link:active,
+  .aui-button.aui-button-link:focus,
+  .aui-button.aui-button-link:hover,
+  .aui-button.aui-button-text:active,
+  .aui-button.aui-button-text:focus,
+  .aui-button.aui-button-text:hover,
+  .aui-buttons .aui-button.aui-button-link:active,
+  .aui-buttons .aui-button.aui-button-link:focus,
+  .aui-buttons .aui-button.aui-button-link:hover,
+  .aui-buttons .aui-button.aui-button-link[aria-pressed="true"],
+  .aui-buttons .aui-button.aui-button-text:active,
+  .aui-buttons .aui-button.aui-button-text:focus,
+  .aui-buttons .aui-button.aui-button-text:hover,
+  .aui-buttons .aui-button.aui-button-text[aria-pressed="true"] {
+    background-color: transparent !important;
+    border-color: transparent !important;
+  }
+
+  aui-badge {
+    color: /*[[Primary Text]]*/ !important;
+  }
+
+  .ghx-column-headers h1,
+  .ghx-column-headers h2,
+  .ghx-column-headers h3,
+  .ghx-column-headers h4,
+  .ghx-column-headers h5,
+  .ghx-column-headers h6 {
+    color: /*[[Primary Text]]*/ !important;
+  }
+
+  #ghx-column-header-group {
+    background: /*[[Primary]]*/ !important;
+  }
+
+  .ghx-controls-list dt {
+    color: /*[[Secondary Text]]*/ !important;
+  }
+
+  span.subnav-page-header {
+    color: /*[[Secondary Text]]*/ !important;
   }
 }
 
