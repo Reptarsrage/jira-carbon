@@ -1119,11 +1119,8 @@
     color:/*[[Secondary Text]]*/ !important;
   }
 
-  .ghx-backlog-header .ghx-expander svg g path {
-    fill:/*[[Primary Text]]*/ !important;
-  }
-
-  button.aui-button-link {
+  button.aui-button-link,
+  a.aui-button-link {
     color: /*[[Link]]*/ !important;
     background-color: transparent !important;
     border-color: transparent !important;
@@ -1176,6 +1173,36 @@
 
   span.subnav-page-header {
     color: /*[[Secondary Text]]*/ !important;
+  }
+
+  .ghx-ide-menu > li:hover {
+    background: /*[[Secondary]]*/ !important;
+    color: /*[[Primary Text]]*/ !important;
+  }
+
+  .ghx-classification-item > .ghx-inner {
+    border: 1px solid /*[[Border]]*/ !important;
+  }
+
+  .ghx-classification-item {
+    background: /*[[Primary]]*/ !important;
+    color: /*[[Primary Text]]*/ !important;
+  }
+
+  .ghx-classification-item .aui-item {
+    color: /*[[Secondary Text]]*/ !important;
+  }
+
+  button.ghx-expander {
+    background: transparent !important;
+  }
+
+  button.ghx-expander:hover {
+    background: /*[[Tertiary]]*/ !important;
+  }
+
+  .ghx-expander svg g path {
+    fill: /*[[Primary Text]]*/ !important;
   }
 }
 
