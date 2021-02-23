@@ -1204,6 +1204,23 @@
   .ghx-expander svg g path {
     fill: /*[[Primary Text]]*/ !important;
   }
+
+  .user-content-block font {
+    color: /*[[Primary Text]]*/ !important;
+  }
+
+  .user-content-block a font {
+    color: /*[[Link]]*/ !important;
+  }
+
+  .ghx-parent-group.ghx-away {
+    background: /*[[Tertiary]]*/ !important;
+  }
+
+  #ghx-view-selector #ghx-sprint-goal,
+  .ghx-sprint-meta .time {
+    color: /*[[Secondary Text]]*/ !important;
+  }
 }
 
 @-moz-document domain("hiptest.net") {
